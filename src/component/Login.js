@@ -31,7 +31,7 @@ const Login = (props) => {
           <h3 className="card-title">Sign Up</h3>
           <button className="card-title">
             <GoogleLogin
-              clientId="321323735309-hh8l8p6i3k626m2a3o3cd4r6ksrvhbav.apps.googleusercontent.com"
+              clientId=""
               buttonText="Login"
               onSuccess={onSuccess}
               onFailure={onFailure}
@@ -43,7 +43,7 @@ const Login = (props) => {
           <br />
           <button className="card-title">
             <FacebookLogin
-              appId="210683927541907"
+              appId=""
               autoLoad={false}
               fields="name,email,picture"
               onClick={componentClicked}
